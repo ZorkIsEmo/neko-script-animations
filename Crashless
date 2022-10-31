@@ -1,7 +1,5 @@
 -- FE Neko Maid Animations By Creo Rescripted By Zork
 -- Tail that CAN be used https://web.roblox.com/catalog/4645440842/Plain-White-Cat-Tail
--- For updates on script join this server
--- https://discord.gg/ad7WVB6Bxf
 -- **Height 90 Width 100 Head 100 Proportions 100 for best resaults**
 
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
