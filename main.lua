@@ -1,7 +1,6 @@
--- FE Neko Maid Animations By Creo
+-- FE Neko Maid Animations By Creo Rescripted By Zork
 -- Tail that CAN be used https://web.roblox.com/catalog/4645440842/Plain-White-Cat-Tail
--- For updates on script join this server
--- https://discord.gg/ad7WVB6Bxf
+
 
 
 local NotificationBindable = Instance.new("BindableFunction")
@@ -1096,7 +1095,7 @@ Mouse.KeyDown:Connect(function(key)
 	else
 		if key == "t" and Attacking == false then
 			Attacking = true
-			makesound("rbxassetid://6433451653",1,1,tors):Play()
+			makesound("rbxassetid://9114396740",1,1,tors):Play()
 			for i=0,100 do
 				swait()
 				neck.C1 = neck.C1:Lerp(nek * CF(0,0,0) * CFA(math.rad( -15 + math.rad(math.sin(time()*16)*15)),0,0),LerpStyle(0.2,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut))
